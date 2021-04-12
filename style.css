@@ -1,0 +1,123 @@
+html{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.notification-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.notification-content{
+    display:flex;
+    justify-content: center;
+}
+.notification-content-img{
+    display:flex;
+    justify-content: center;
+    width: 280px;
+    height: 70px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.booking-details{
+    font-family: 'roboto';
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.provider-img{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.provider-card{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    width: 600px; height:auto;  
+    background-color:#FFFFFF; 
+    border-radius: 15px; 
+    box-shadow: 0 3px 6px rgba(0,0,0,.18)!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.provider-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blue;
+    border-radius: 50px;
+    border-style: none; 
+    color: #FFFFFF;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* service card */
+.service-card{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px; 
+    background-color:#FFFFFF; 
+    border-radius: 30px; 
+    box-shadow: 0 3px 6px rgba(0,0,0,.18)!important; 
+    margin-bottom: 200px;
+    text-align: center;
+    margin-top: 40px;
+}
+.service-card-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.service-card-content-inner{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+   
+}
+.service-card-content-inner{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+ 
+}
+
+.service-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blue;
+    border-radius: 50px;
+    border-style: none; 
+    color: #FFFFFF;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.service-card-img{
+    width: 80px;
+    height: 80px;
+}
